@@ -1,0 +1,301 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONT SETUP
+  Font family needs to be capitolized
+*******************/
+
+body {
+	font-family: "Source Sans Pro", sans-serif ;
+}
+
+h1, .strapline p, .teasers h2 {
+	font-family: "Merriweather", serif;
+}
+
+.cta, nav li:nth-child(-n+2) a {
+	font-family: "Oswald";
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+/*******************
+  GENERAL
+*******************/
+
+html {
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+.cta {
+	padding: 10px;
+	border-radius: 5px;
+	color: #000;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+}
+
+.cta-yellow {
+	background-color: #FFF653;
+	border-bottom: 3px solid #CEC441;
+}
+
+.cta-grey {
+	background-color: #C6C6C6;
+	border-bottom: 3px solid #999;
+}
+
+/*******************
+  HEADER
+*******************/
+
+header {
+	background-color: black;
+	padding: 20px 0;
+	border-bottom: 5px solid #FFF653;
+}
+
+h1 {
+	color: #FFF653;
+	margin: 0;
+	font-size: 36px;
+	float: left;
+	letter-spacing: 1px;
+}
+
+nav {
+	float: right;
+	margin-top: 14px;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav a {
+	color: white;
+}
+
+/*******************
+  STRAPLINE
+*******************/
+
+.strapline {
+	background-color: #C6C6C6;
+	padding: 20px 0;
+	text-align: center;
+	border-top: 1px solid #CEC441;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 1;
+
+}
+
+.strapline p {
+	margin: 0;
+	font-size: 28px;
+	font-style: italic;
+}
+
+del {
+	color: #999;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid #FFF653;
+}
+
+/*******************
+  INTRO
+*******************/
+
+.intro {
+	background-image: url(../images/coworking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.intro-content {
+	background-color: rgba(255,255,255, 0.7);
+	width: 350px;
+	margin-left: auto;
+	padding: 20px 30px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.intro-content h2 {
+	margin: 10px 0;
+}
+
+.intro-content p {
+	margin: 0 0 30px;
+	line-height: 1.5;
+}
+
+/*******************
+  TEASERS
+*******************/
+
+.teasers-block {
+	float: left;
+	width: 33.333333333333333333333%;
+	padding: 20px;
+	border-right: 1px solid #C6C6C6;
+}
+
+.teasers ul {
+	padding: 0;
+	margin: 0;
+}
+
+.teasers {
+	padding: 20px 0;
+}
+
+.teasers-block:last-child {
+	border-right: none;
+}
+
+.teasers-block h2 {
+	margin: 10px 0;
+	line-height: 1.3;
+}
+
+.teasers-block p {
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+/*******************
+  FOOTER
+*******************/
+
+footer {
+	padding: 20px 0;
+	background-color: #000;
+	color: #FFF;
+}
+
+/*------------------------------------------------------------------------------------ END OF INDEX ------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------START OF DESIGNERS---------------------------------------------------------------------------------*/
+
+/*******************
+  MAIN CONTENT
+*******************/
+
+.main {
+  background-color: #c6c6c6;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+.main-content {
+	background-color: #fff;
+	width: 250px;
+	padding: 10px;
+  float: left;
+  margin: 10px;
+}
+
+.a1-image {
+  background-image: url('http://via.placeholder.com/280x280');
+  padding-bottom: 100%;
+  background-size: cover;
+  background-positon: center;
+  background-repeat: none;
+  
+}
+
+.a1 ul {
+	margin: 0px;
+	margin-bottom: 15px;
+  padding: 0;
+}
+
+.a1 h4 {
+	margin: 0px;
+}
+
+.a1 li {
+	font-size: 15px;
+	background-color: #666666;
+	display: inline-block;
+	padding: 0px 10px;
+	color: white;
+	border-radius: 50px;
+	margin-right: 5px;
+}
+
+.calltoaction a {
+	background-color: #fff653;
+  display: block;
+  text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px 48px;
+	border-radius: 5px;
+	border-bottom: 3px solid #cec441;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  letter-spacing: .05px;
+}
+
+nav a:hover {
+	background-color: #999999;
+	padding-bottom: 29px;
+}

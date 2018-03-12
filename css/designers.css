@@ -1,0 +1,188 @@
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONT SETUP
+  Font family needs to be capitolized
+*******************/
+
+/*******************
+  FONT SETUP
+  Font family needs to be capitolized
+*******************/
+
+body {
+	font-family: "Source Sans Pro", sans-serif ;
+}
+
+h1, .strapline p, .teasers h2 {
+	font-family: "Merriweather", serif;
+}
+
+.cta, nav li:nth-child(-n+2) a {
+	font-family: "Oswald";
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+/*******************
+  GENERAL
+*******************/
+
+html {
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+.cta {
+	padding: 10px;
+	border-radius: 5px;
+	color: #000;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+}
+
+.cta-yellow {
+	background-color: #FFF653;
+	border-bottom: 3px solid #CEC441;
+}
+
+.cta-grey {
+	background-color: #C6C6C6;
+	border-bottom: 3px solid #999;
+}
+
+/*******************
+  HEADER
+*******************/
+
+header {
+	background-color: black;
+	padding: 20px 0;
+	border-bottom: 5px solid #FFF653;
+}
+
+h1 {
+	color: #FFF653;
+	margin: 0;
+	font-size: 36px;
+	float: left;
+	letter-spacing: 1px;
+}
+
+nav {
+	float: right;
+	margin-top: 14px;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav a {
+	color: white;
+}
+
+/*******************
+  STRAPLINE
+*******************/
+
+.strapline {
+	background-color: #C6C6C6;
+	padding: 20px 0;
+	text-align: center;
+	border-top: 1px solid #CEC441;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 1;
+
+}
+
+.strapline p {
+	margin: 0;
+	font-size: 28px;
+	font-style: italic;
+}
+
+del {
+	color: #999;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid #FFF653;
+}
+
+/*******************
+  FOOTER
+*******************/
+
+footer {
+	padding: 20px 0;
+	background-color: #000;
+	color: #FFF;
+}
+
+/*------------------------------------------------------------------------------------ END OF INDEX ------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------START OF DESIGNERS---------------------------------------------------------------------------------*/
+
+/*******************
+  MAIN CONTENT
+*******************/
+
+.main-content {
+	background-image: url("http://via.placeholder.com/250x250");
+	height: 250px;
+	width: 250px;
+	padding: 5px 0;
+}
+
+.a1 li {
+	font-size: 15px;
+	background-color: #666666;
+	display: inline-block;
+	padding: 0px 10px;
+	color: white;
+	border-radius: 50px;
+
+.calltoaction a {
+	font-size: 50px;
+	color: yellow;
+}
